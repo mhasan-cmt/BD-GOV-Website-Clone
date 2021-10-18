@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://bangladesh.gov.bd/themes/responsive_npf/images/bg_main.gif');
+    background-size: 100%;
+    background-attachment: fixed;
+    position: relative;
+    font-family: 'BenSen', sans-serif;
+}
+.container{
+    width: 948px;
+    margin: auto;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Header starts */
+
+        /* Top head */
+
+header .top-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    background-color: #9E5BBA;
+    border-bottom: 1px solid red;
+}
+header .top-head .left p{
+    font-size: 1rem;
+    padding: 0 10px;
+    word-spacing: .1rem;
+    color: white;
+}
+header .top-head .right{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+header .top-head .right p{
+    word-spacing: .1rem;
+    font-size: 1rem;
+    color: white;
+}
+header .top-head .right p:first-child{
+    margin-right: 20px;
+}
+header .top-head .right P:last-child{
+    padding: 0 10px;
+    border-left: 1px solid white;
+    cursor: pointer;
+}
+    /* Top Head ends */
+
+
+/* Mid head */
+
+header .mid-head{
+    display: flex;
+    justify-content: space-between;
+}
+header .mid-head .left img{
+    width: 100%;
+    padding: 2rem 1rem;
+}
+header .mid-head .right .info-wrapper{
+    display: flex;
+    align-items: center;
+}
+header .mid-head .right .cta-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header .mid-head .right .info-wrapper .single-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #97C948;
+    color: #FCFFFf;
+    height: 20px;
+    padding: 20px;
+    cursor: pointer;
+    margin-right: .1rem;
+    position: relative;
+    transition: all .2s ease-in;
+}
+header .mid-head .right .info-wrapper .single-info:last-child{
+    margin-right: 0;
+}
+header .mid-head .right .info-wrapper .single-info:hover{
+    background-color:#E40001 ;
+}
+header .mid-head .right .info-wrapper .single-info:first-child{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+}
+
+header .mid-head .right .info-wrapper .single-info p:first-child{
+    font-size: 1.5rem;
+    margin-right: .5rem;
+    flex: 1;
+}
+header .mid-head .right .info-wrapper .single-info p:last-child{
+    font-size: 1rem;
+    width: 100%;
+    flex: 1;
+}
+header .mid-head .right .cta-wrapper{
+    padding: 1rem 2rem;
+}
+header .mid-head .right .cta-wrapper input{
+    width: 50%;
+    margin-right: 1rem;
+    height: 30px;
+    border: none;
+    outline: none;
+    border: 1px solid #CCCCCC;
+    padding: .5rem .5rem;
+}
+header .mid-head .right .cta-wrapper button{
+    margin-right: 2rem;
+    height:30px ;
+    color: black;
+    padding: 5px;
+}
+header .mid-head .right .cta-wrapper >img{
+    margin-right: 1.5rem;
+    border-right: 2px solid #CCCCCC;
+    padding-right: 10px;
+}
+header .mid-head .right .cta-wrapper .social-icons p{
+    color: #97489A;
+    font-weight: 600;
+    font-size: .7rem;
+    margin-bottom: .5rem;
+}
+header .mid-head .right .cta-wrapper .social-icons .icons img{
+    cursor: pointer;
+    margin-right: .2rem;
+}
+/* Mid head ends */
+
+/* Nav starts */
+
+header .nav-wrapper {
+    background-color: #EFEFEF;
+}
+header .nav-wrapper nav ul{
+    display: flex;
+}
+header .nav-wrapper nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: .5rem;
+    border-right: 1px solid #CCCCCC;
+    transition: all .3s ease-in-out;
+}
+header .nav-wrapper nav ul li:last-child{
+    margin-right: 0;
+}
+header .nav-wrapper nav ul li:first-child{
+    margin-left: .3rem;
+}
+header .nav-wrapper nav ul li a{
+    text-decoration: none;
+    padding-right: .3rem;
+    font-size: 1.2rem;
+    color: black;
+}
+header .nav-wrapper nav ul li:first-child:hover{
+    background-color: #70BF42;
+}
+header .nav-wrapper nav ul li:nth-child(2):hover{
+    background-color: #C40A2A;
+}
+header .nav-wrapper nav ul li:nth-child(3):hover{
+    background-color: #84154D;
+}
+header .nav-wrapper nav ul li:nth-child(4):hover{
+    background-color: #1399BE;
+}
+header .nav-wrapper nav ul li:nth-child(5):hover{
+    background-color: #6A0166;
+}
+header .nav-wrapper nav ul li:nth-child(6):hover{
+    background-color: #000;
+}
+header .nav-wrapper nav ul li:nth-child(7):hover{
+    background-color: #FF6600;
+}
+header .nav-wrapper nav ul li:nth-child(8):hover{
+    background-color: #C40A2A;
+}
+header .nav-wrapper nav ul li:nth-child(9):hover{
+    background-color: #000;
+}
+header .nav-wrapper nav ul li:last-child:hover{
+    background-color: #C40A2A;
+}
+
+header .nav-wrapper nav ul li:hover a{
+    color: white;
+}
+    /* Nav Ends */
+
+/* Header Ends */
+
+
+/* Footer starts */
+footer .footer-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EBEBEB;
+    padding: 1rem 2rem;
+    margin-top: -.3rem;
+}
+footer .footer-content-wrapper ul li {
+    list-style: none;
+    text-align: center;
+    border-right: 1px solid #CCCCCC;
+    padding-right: 10px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer .footer-content-wrapper ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+}
+footer .footer-content-wrapper ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .footer-content-wrapper ul li a{
+    border: 1px solid transparent;
+    transition: all .2s ease-in-out;
+}
+footer .footer-content-wrapper ul li a:hover{
+    border-bottom: 1px solid #000;
+}
+footer .footer-content-wrapper .site-info p{
+    font-size: .8rem;
+}
+footer .footer-content-wrapper .site-info .site-icons span{
+    font-size: .8rem;
+}
+.planing{
+    font-size: .8rem;
+}
+/* Footer ends */
+
+/* Utitlities */
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.mt-2{
+    margin-top: 2rem;
+}
