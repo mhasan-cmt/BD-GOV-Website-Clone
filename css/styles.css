@@ -499,7 +499,9 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
 /* Popular portals section ends  */
 
 /* TopList section starts  */
-
+.section .left .toplist-section{
+    position: relative;
+}
 .section .left .toplist-section ul{
     display: flex;
     flex-wrap: wrap;
@@ -552,6 +554,12 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
     color: #97C948;
     font-size: large;
 }
+.section .left .toplist-section > a{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: .5rem;
+}
 ::marker{
     font-size: .9rem;
     margin: 4rem;
@@ -588,6 +596,7 @@ footer .footer-content-wrapper ul{
     justify-content: space-around;
 }
 footer .footer-content-wrapper ul li a{
+    color: #000;
     border: 1px solid transparent;
     transition: all .2s ease-in-out;
 }
@@ -595,13 +604,17 @@ footer .footer-content-wrapper ul li a:hover{
     border-bottom: 1px solid #000;
 }
 footer .footer-content-wrapper .site-info p{
-    font-size: .8rem;
+    font-size: 1rem;
+    color: #000;
 }
 footer .footer-content-wrapper .site-info .site-icons span{
-    font-size: .8rem;
+    font-size: 1rem;
+    color: #000;
 }
 .planing{
-    font-size: .8rem;
+    font-size: 1rem;
+    margin-right: .2rem;
+    color: #000;
 }
 /* Footer ends */
 /* Utitlities */
