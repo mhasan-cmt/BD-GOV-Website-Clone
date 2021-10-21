@@ -425,6 +425,9 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
     border-bottom: 1px solid #73BF43;
 }
 .section .left .gov-news-section .gov-news-wrapper .news-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #70BF42;
     background-color: white;
     width: 20%;
@@ -445,6 +448,29 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
 }
 
 /* Gov news section ends */
+
+/* Popular portals section starts */
+.popular-portals-section{
+    height: 24rem;
+    min-height: 24rem;
+}
+
+.popular-portals-section .popular-portals-wrapper{
+    padding: 1rem;
+}
+.popular-portals-section .popular-portals-wrapper ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+}
+.popular-portals-section .popular-portals-wrapper li{
+    margin-right: .5rem;
+}
+.popular-portals-section .popular-portals-wrapper li a img{
+    width: 100%;
+}
+/* Popular portals section ends  */
 /* Footer starts */
 footer .footer-content-wrapper{
     display: flex;
