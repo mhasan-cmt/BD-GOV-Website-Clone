@@ -5,9 +5,15 @@
 }
 body{
     background: url('https://bangladesh.gov.bd/themes/responsive_npf/images/bg_main.gif');
-    background-size: 100%;
-    background-attachment: fixed;
-    background-position: center;
+    background-size: auto;
+    background-color: rgb(0, 0, 0);
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+
     position: relative;
     font-family: 'BenSen', sans-serif;
 }
@@ -18,7 +24,7 @@ li{
     list-style: none;
 }
 .container{
-    width: 948px;
+    width: 1024px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -139,6 +145,11 @@ header .mid-head .right .cta-wrapper .social-icons p{
 header .mid-head .right .cta-wrapper .social-icons .icons img{
     cursor: pointer;
     margin-right: .2rem;
+    transform: scale(.9);
+    transition: all .1s ease-in-out;
+}
+header .mid-head .right .cta-wrapper .social-icons .icons img:hover{
+    transform: scale(1.1);
 }
 /* Mid head ends */
 /* Nav starts */
@@ -273,7 +284,12 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
     width: 100%;
 }
 .section .right ul li a img{
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
     min-width: 100%;
+}
+.section .right ul li:hover img{
+    transform: scale(1);
 }
 .section .left .marquee-wrapper .marquee-1{
     background-color: #E6E7E8;
@@ -469,6 +485,11 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
 }
 .popular-portals-section .popular-portals-wrapper li a img{
     width: 100%;
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+}
+.popular-portals-section .popular-portals-wrapper li:hover img{
+    transform: scale(1);
 }
 /* Popular portals section ends  */
 /* Footer starts */
@@ -572,6 +593,6 @@ footer .footer-content-wrapper .site-info .site-icons span{
 }
 @media (min-width:1200px){
     .container{
-        max-width: 938px;
+        max-width: 1024px;
    }
 }
