@@ -7,6 +7,7 @@ body{
     background: url('https://bangladesh.gov.bd/themes/responsive_npf/images/bg_main.gif');
     background-size: 100%;
     background-attachment: fixed;
+    background-position: center;
     position: relative;
     font-family: 'BenSen', sans-serif;
 }
@@ -23,11 +24,8 @@ li{
     position: relative;
     background-color: white;
 }
-
 /* Header starts */
-
-        /* Top head */
-
+/* Top head */
 header .top-head{
     display: flex;
     align-items: center;
@@ -60,11 +58,8 @@ header .top-head .right P:last-child{
     border-left: 1px solid white;
     cursor: pointer;
 }
-    /* Top Head ends */
-
-
+/* Top Head ends */
 /* Mid head */
-
 header .mid-head{
     display: flex;
     justify-content: space-between;
@@ -75,7 +70,6 @@ header .mid-head .left img{
 }
 header .mid-head .right .info-wrapper{
     display: flex;
-    align-items: center;
 }
 header .mid-head .right .cta-wrapper{
     display: flex;
@@ -104,7 +98,6 @@ header .mid-head .right .info-wrapper .single-info:hover{
 header .mid-head .right .info-wrapper .single-info:first-child{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
 }
-
 header .mid-head .right .info-wrapper .single-info p:first-child{
     font-size: 1.5rem;
     margin-right: .5rem;
@@ -149,9 +142,7 @@ header .mid-head .right .cta-wrapper .social-icons .icons img{
     margin-right: .2rem;
 }
 /* Mid head ends */
-
 /* Nav starts */
-
 header .nav-wrapper {
     background-color: #EFEFEF;
 }
@@ -210,11 +201,9 @@ header .nav-wrapper nav ul li:nth-child(9):hover{
 header .nav-wrapper nav ul li:last-child:hover{
     background-color: #C40A2A;
 }
-
 header .nav-wrapper nav ul li:hover a{
     color: white;
 }
-
 header .nav-wrapper nav ul .menu{
     position: relative;
 }
@@ -231,8 +220,7 @@ header .nav-wrapper nav ul .menu .sub-menu{
     -webkit-box-shadow: -11px 11px 5px -7px rgba(196,10,42,0.75);
     -moz-box-shadow: -11px 11px 5px -7px rgba(196,10,42,0.75);
 }
-header .nav-wrapper nav ul .menu .sub-menu .left ul,
-header .nav-wrapper nav ul .menu .sub-menu .right ul{
+header .nav-wrapper nav ul .menu .sub-menu .left ul, header .nav-wrapper nav ul .menu .sub-menu .right ul{
     display: flex;
     flex-direction: column;
     margin-top: .9rem;
@@ -245,20 +233,17 @@ header .nav-wrapper nav ul .menu .sub-menu .left{
 .sub-menu-wrapper{
     display: none;
 }
-header .nav-wrapper nav ul .menu .sub-menu .left ul li,
-header .nav-wrapper nav ul .menu .sub-menu .right ul li{
+header .nav-wrapper nav ul .menu .sub-menu .left ul li, header .nav-wrapper nav ul .menu .sub-menu .right ul li{
     margin: 0;
     justify-content: flex-start;
     border-bottom: .01px solid #CCCCCC;
     padding:.2rem .5rem;
     border-right: 0;
 }
-header .nav-wrapper nav ul .menu .sub-menu .left ul li:hover,
-header .nav-wrapper nav ul .menu .sub-menu .right ul li:hover{
+header .nav-wrapper nav ul .menu .sub-menu .left ul li:hover, header .nav-wrapper nav ul .menu .sub-menu .right ul li:hover{
     background-color: #EEEEEE;
 }
-header .nav-wrapper nav ul .menu .sub-menu .left ul a,
-header .nav-wrapper nav ul .menu .sub-menu .right ul a{
+header .nav-wrapper nav ul .menu .sub-menu .left ul a, header .nav-wrapper nav ul .menu .sub-menu .right ul a{
     font-size: 1rem;
     font-weight: 500;
     color: black;
@@ -269,12 +254,8 @@ header .nav-wrapper nav ul .menu .sub-menu .left{
 header .nav-wrapper nav ul .menu .sub-menu .right{
     flex: 1;
 }
-
-    /* Nav Ends */
-
+/* Nav Ends */
 /* Header Ends */
-
-
 /* Main section */
 .section{
     width: 100%;
@@ -298,8 +279,7 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
 .section .right ul li a img{
     width: 100%;
 }
-
-/* Slider starts  */
+/* Slider starts */
 .section .left .slider{
     display: flex;
     align-items: center;
@@ -312,7 +292,6 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
     object-fit: cover;
 }
 /* Slider ends */
-
 /* Tab section starts */
 .section .left .tab-section{
     margin-top: 1rem;
@@ -356,8 +335,13 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
     display: none;
     margin-top: 5px;
     transform: scale(.9);
-    transition: opacity 500ms ease-in-out 0ms,
-    transform 500ms ease-in-out 0ms;
+    height: 18rem;
+    max-height: 18rem;
+    transition: opacity 500ms ease-in-out 0ms, transform 500ms ease-in-out 0ms;
+}
+.section .left .tab-section .tab-content .tab#tab5{
+    height:30rem ;
+    max-height: 30rem;
 }
 .section .left .tab-section .tab-item-wrapper .tab-item.active{
     background-color:#E8E8E8 ;
@@ -365,7 +349,44 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
 .section .left .tab-section .tab-item-wrapper .tab-item.active a{
     color: #97489A;
 }
-
+.single-service-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-slider{
+    display: flex;
+    flex-direction: column;
+}
+.eservice-cat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2rem;
+    padding: .5rem;
+    transition: all .3s ease-in-out;
+}
+.eservice-cat:hover{
+    background-color: #fff;
+}
+.single-service-block .eservice-cat a {
+    width: 100%;
+    float: left;
+    color: #297101;
+    text-align: center;
+    line-height: 16px;
+}
+.service-col-wrapper{
+    display: flex;
+}
+.service-col-wrapper .service-col{
+    flex:1;
+}
+.service-col-wrapper .service-col .eservice-cat a{
+    color: black;
+}
+.service-col-wrapper .service-col .eservice-cat{
+    align-items: center;
+}
 /* Tab section ends */
 /* Footer starts */
 footer .footer-content-wrapper{
@@ -413,7 +434,6 @@ footer .footer-content-wrapper .site-info .site-icons span{
     font-size: .8rem;
 }
 /* Footer ends */
-
 /* Utitlities */
 .d-flex{
     display: flex;
@@ -427,26 +447,24 @@ footer .footer-content-wrapper .site-info .site-icons span{
 .mt-2{
     margin-top: 2rem;
 }
-
 /* Responsive Containers*/
 @media (min-width:576px){
     .container{
-        max-width: 540px;
-    }
+        max-width: 440px;
+   }
 }
 @media (min-width:768px){
     .container{
-        max-width: 720px;
-    }
+        max-width: 620px;
+   }
 }
 @media (min-width:992px){
     .container{
-        max-width: 960px;
-    }
+        max-width: 900px;
+   }
 }
-
 @media (min-width:1200px){
     .container{
         max-width: 938px;
-    }
+   }
 }
