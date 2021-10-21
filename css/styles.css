@@ -491,7 +491,73 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
 .popular-portals-section .popular-portals-wrapper li:hover img{
     transform: scale(1);
 }
+.section-title{
+    margin-top: 1rem;
+    font-size: x-large;
+    color: #72308F;
+}
 /* Popular portals section ends  */
+
+/* TopList section starts  */
+
+.section .left .toplist-section ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section .left .toplist-section ul li{
+    flex:1;
+    margin-right: .6rem;
+}
+.section .left .toplist-section ul li:nth-child(2){
+    flex: 2;
+}
+.section .left .toplist-section ul li .topsites ul,
+.section .left .toplist-section ul li .topservices ul,
+.section .left .toplist-section ul li .toppages ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    padding-left: 1rem;
+}
+.section .left .toplist-section ul li .topsites ul li,
+.section .left .toplist-section ul li .topservices ul li,
+.section .left .toplist-section ul li .toppages ul li{
+    list-style: decimal;
+    margin-top: .6rem;
+}
+.section .left .toplist-section ul li .topsites ul li a,
+.section .left .toplist-section ul li .topservices ul li a,
+.section .left .toplist-section ul li .toppages ul li a{
+    color: #000;
+    font-size: .9rem;
+    border-bottom: 1px solid transparent;
+    transition: all .2s ease-in-out;
+}
+.section .left .toplist-section ul li .topsites ul li a:hover,
+.section .left .toplist-section ul li .topservices ul li a:hover,
+.section .left .toplist-section ul li .toppages ul li a:hover{
+    border-color: #000;
+}
+.section .left .toplist-section ul li:first-child h5{
+    color: #F17D4B;
+    font-size: large;
+}
+.section .left .toplist-section ul li:nth-child(2) h5{
+    color: #2891CD;
+    font-size: large;
+}
+.section .left .toplist-section ul li:nth-child(3) h5{
+    color: #97C948;
+    font-size: large;
+}
+::marker{
+    font-size: .9rem;
+    margin: 4rem;
+}
+
+/* TopList section ends  */
 /* Footer starts */
 footer .footer-content-wrapper{
     display: flex;
@@ -559,6 +625,9 @@ footer .footer-content-wrapper .site-info .site-icons span{
 }
 .mb-0{
     margin-bottom: 0;
+}
+.ml-1{
+    margin-left: 1rem;
 }
 .btn{
     color: #70BF42;
