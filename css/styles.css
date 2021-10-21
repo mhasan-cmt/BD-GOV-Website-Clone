@@ -123,8 +123,7 @@ header .mid-head .right .cta-wrapper input{
 header .mid-head .right .cta-wrapper button{
     margin-right: 2rem;
     height:30px ;
-    color: black;
-    padding: 5px;
+    padding: .3rem;
 }
 header .mid-head .right .cta-wrapper >img{
     margin-right: 1.5rem;
@@ -270,6 +269,12 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
 .section .right{
     width: 30%;
 }
+.section .right ul li{
+    width: 100%;
+}
+.section .right ul li a img{
+    min-width: 100%;
+}
 .section .left .marquee-wrapper .marquee-1{
     background-color: #E6E7E8;
     display: flex;
@@ -388,6 +393,58 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
     align-items: center;
 }
 /* Tab section ends */
+
+/* Gov news section starts */
+.section .left .gov-news-section{
+    width: 100%;
+    padding: .5rem;
+}
+.section .left .gov-news-section .gov-news-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.section .left .gov-news-section  h5{
+    font-size: xx-large;
+    color: #72308F;
+}
+.section .left .gov-news-section .gov-news-wrapper .news-item .news-header{
+    color: black;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.section .left .gov-news-section .gov-news-wrapper .news-item .news-header:hover{
+    color: #73BF43;
+}
+.section .left .gov-news-section .gov-news-wrapper .news-item{
+    margin-bottom: 1rem;
+}
+.section .left .gov-news-section .gov-news-wrapper .news-item .news-time{
+    color: #73BF43;
+    border-bottom: 1px solid #73BF43;
+}
+.section .left .gov-news-section .gov-news-wrapper .news-all{
+    color: #70BF42;
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    padding: .2rem;
+    transition: all .5s ease-in-out;
+    border: 1px solid #70BF42;
+}
+.section .left .gov-news-section .gov-news-wrapper .news-all:hover{
+    background-color: #70BF42;
+    color:white;
+    border-color: transparent;
+}
+.section .left .gov-news-section .gov-news-wrapper .news-all p{
+    width: 100%;
+}
+
+/* Gov news section ends */
 /* Footer starts */
 footer .footer-content-wrapper{
     display: flex;
@@ -446,6 +503,30 @@ footer .footer-content-wrapper .site-info .site-icons span{
 }
 .mt-2{
     margin-top: 2rem;
+}
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.btn{
+    color: #70BF42;
+    background-color: white;
+    transition: all .5s ease-in-out;
+    border: 1px solid #70BF42;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn:hover{
+    color: white;
+    background-color: #70BF42;
+}
+.w-100{
+    width: 100%;
 }
 /* Responsive Containers*/
 @media (min-width:576px){
