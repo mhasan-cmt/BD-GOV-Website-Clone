@@ -563,6 +563,7 @@ header .nav-wrapper nav ul .menu .sub-menu .right{
 ::marker{
     font-size: .9rem;
     margin: 4rem;
+    color: #97C948;
 }
 
 /* TopList section ends  */

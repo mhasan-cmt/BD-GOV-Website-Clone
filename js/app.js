@@ -1,4 +1,6 @@
 $(document).ready(() => {
+
+    // Slider
     $('.slider').slick({
         arrows: false,
         infinite: true,
