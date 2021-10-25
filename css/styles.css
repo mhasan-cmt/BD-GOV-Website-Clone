@@ -589,6 +589,59 @@ header .nav-wrapper nav ul .menu .sub-menu .right
 }
 
 /* TopList section ends  */
+
+/* Videos Section starts */
+.section .left .videos-section{
+    display: flex;
+    flex-direction: column;
+}
+.section .left .videos-section .section-content table{
+    padding: 1rem;
+}
+.section .left .videos-section .section-content table tbody tr td{
+    border: 2px solid #d8d8d8 !important;
+}
+
+/* Videos Section ends */
+/* Main section right start  */
+
+/* Mini form section start  */
+.section .right .mini-form-section{
+    padding: 0 .1rem;
+}
+.section .right .mini-form-section h4{
+    font-size: 1.5rem;
+    color: #6B2F91;
+    margin: 1.5rem 0;
+}
+.section .right .mini-form-section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section .right .mini-form-section div select{
+    flex: 2;
+    padding: 0.3rem;
+    border: none;
+    border: 1px solid #70BF42;
+    color: #70BF42;
+    transition: all .2s ease-in-out;
+}
+.section .right .mini-form-section div select:hover{
+    background-color: #70BF42;
+    border-color: transparent;
+    color: white;
+}
+.section .right .mini-form-section div input{
+    flex: 1;
+    margin: .2rem;
+}
+/* Mini form section start  ends*/
+
+.right-video-section{
+    padding: 0 .5rem;
+}
+/* Main section right ends  */
 /* Footer starts */
 footer .footer-content-wrapper{
     display: flex;
@@ -640,6 +693,15 @@ footer .footer-content-wrapper .site-info .site-icons span{
     color: #000;
 }
 /* Footer ends */
+
+/* Common Styles starts */
+.section-heading{
+    background-color: #609513;
+}
+.section-heading h3{
+    padding: .5rem .5rem;
+}
+/* Common Styles ends */
 /* Utitlities */
 .d-flex{
     display: flex;
