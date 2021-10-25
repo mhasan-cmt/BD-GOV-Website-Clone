@@ -13,7 +13,6 @@ body{
     background-attachment: scroll;
     background-origin: padding-box;
     background-clip: border-box;
-
     position: relative;
     font-family: 'BenSen', sans-serif;
 }
@@ -214,12 +213,10 @@ header .nav-wrapper nav ul li:last-child:hover{
 header .nav-wrapper nav ul li:hover a{
     color: white;
 }
-header .nav-wrapper nav ul .menu
-{
+header .nav-wrapper nav ul .menu {
     position: relative;
 }
-header .nav-wrapper nav ul .menu .sub-menu
-{
+header .nav-wrapper nav ul .menu .sub-menu {
     display: flex;
     position: absolute;
     justify-content: space-between;
@@ -232,8 +229,7 @@ header .nav-wrapper nav ul .menu .sub-menu
     -webkit-box-shadow: -11px 11px 5px -7px rgba(196,10,42,0.75);
     -moz-box-shadow: -11px 11px 5px -7px rgba(196,10,42,0.75);
 }
-header .nav-wrapper nav ul .menu-2 .sub-menu
-{
+header .nav-wrapper nav ul .menu-2 .sub-menu {
     display: flex;
     position: absolute;
     justify-content: space-between;
@@ -246,24 +242,20 @@ header .nav-wrapper nav ul .menu-2 .sub-menu
     -webkit-box-shadow: -11px 11px 5px -7px #6A0166;
     -moz-box-shadow: -11px 11px 5px -7px #6A0166;
 }
-header .nav-wrapper nav ul .menu .sub-menu .left ul, header .nav-wrapper nav ul .menu .sub-menu .right ul
-{
+header .nav-wrapper nav ul .menu .sub-menu .left ul, header .nav-wrapper nav ul .menu .sub-menu .right ul {
     display: flex;
     flex-direction: column;
     margin-top: .9rem;
     padding: 0 1rem;
     padding-bottom: 1rem;
 }
-header .nav-wrapper nav ul .menu .sub-menu .left
-{
+header .nav-wrapper nav ul .menu .sub-menu .left {
     margin-right: .5rem;
 }
-#sub-menu-1,
-#sub-menu-2{
+#sub-menu-1, #sub-menu-2{
     display: none;
 }
-header .nav-wrapper nav ul .menu .sub-menu .left ul li, header .nav-wrapper nav ul .menu .sub-menu .right ul li
-{
+header .nav-wrapper nav ul .menu .sub-menu .left ul li, header .nav-wrapper nav ul .menu .sub-menu .right ul li {
     margin: 0;
     justify-content: flex-start;
     border-bottom: .01px solid #CCCCCC;
@@ -278,12 +270,10 @@ header .nav-wrapper nav ul .menu .sub-menu .left ul a, header .nav-wrapper nav u
     font-weight: 500;
     color: black;
 }
-header .nav-wrapper nav ul .menu .sub-menu .left
-{
+header .nav-wrapper nav ul .menu .sub-menu .left {
     flex: 1;
 }
-header .nav-wrapper nav ul .menu .sub-menu .right
-{
+header .nav-wrapper nav ul .menu .sub-menu .right {
     flex: 1;
 }
 /* Nav Ends */
@@ -431,7 +421,6 @@ header .nav-wrapper nav ul .menu .sub-menu .right
     align-items: center;
 }
 /* Tab section ends */
-
 /* Gov news section starts */
 .section .left .gov-news-section{
     width: 100%;
@@ -443,7 +432,7 @@ header .nav-wrapper nav ul .menu .sub-menu .right
     justify-content: center;
     width: 50%;
 }
-.section .left .gov-news-section  h5{
+.section .left .gov-news-section h5{
     font-size: xx-large;
     color: #72308F;
 }
@@ -484,15 +473,12 @@ header .nav-wrapper nav ul .menu .sub-menu .right
 .section .left .gov-news-section .gov-news-wrapper .news-all p{
     width: 100%;
 }
-
 /* Gov news section ends */
-
 /* Popular portals section starts */
 .popular-portals-section{
     height: 24rem;
     min-height: 24rem;
 }
-
 .popular-portals-section .popular-portals-wrapper{
     padding: 1rem;
 }
@@ -518,9 +504,8 @@ header .nav-wrapper nav ul .menu .sub-menu .right
     font-size: x-large;
     color: #72308F;
 }
-/* Popular portals section ends  */
-
-/* TopList section starts  */
+/* Popular portals section ends */
+/* TopList section starts */
 .section .left .toplist-section{
     position: relative;
 }
@@ -536,32 +521,24 @@ header .nav-wrapper nav ul .menu .sub-menu .right
 .section .left .toplist-section ul li:nth-child(2){
     flex: 2;
 }
-.section .left .toplist-section ul li .topsites ul,
-.section .left .toplist-section ul li .topservices ul,
-.section .left .toplist-section ul li .toppages ul{
+.section .left .toplist-section ul li .topsites ul, .section .left .toplist-section ul li .topservices ul, .section .left .toplist-section ul li .toppages ul{
     display: flex;
     flex-direction: column;
     list-style: none;
     justify-content: center;
     padding-left: 1rem;
 }
-.section .left .toplist-section ul li .topsites ul li,
-.section .left .toplist-section ul li .topservices ul li,
-.section .left .toplist-section ul li .toppages ul li{
+.section .left .toplist-section ul li .topsites ul li, .section .left .toplist-section ul li .topservices ul li, .section .left .toplist-section ul li .toppages ul li{
     list-style: decimal;
     margin-top: .6rem;
 }
-.section .left .toplist-section ul li .topsites ul li a,
-.section .left .toplist-section ul li .topservices ul li a,
-.section .left .toplist-section ul li .toppages ul li a{
+.section .left .toplist-section ul li .topsites ul li a, .section .left .toplist-section ul li .topservices ul li a, .section .left .toplist-section ul li .toppages ul li a{
     color: #000;
     font-size: .9rem;
     border-bottom: 1px solid transparent;
     transition: all .2s ease-in-out;
 }
-.section .left .toplist-section ul li .topsites ul li a:hover,
-.section .left .toplist-section ul li .topservices ul li a:hover,
-.section .left .toplist-section ul li .toppages ul li a:hover{
+.section .left .toplist-section ul li .topsites ul li a:hover, .section .left .toplist-section ul li .topservices ul li a:hover, .section .left .toplist-section ul li .toppages ul li a:hover{
     border-color: #000;
 }
 .section .left .toplist-section ul li:first-child h5{
@@ -587,9 +564,7 @@ header .nav-wrapper nav ul .menu .sub-menu .right
     margin: 4rem;
     color: #97C948;
 }
-
-/* TopList section ends  */
-
+/* TopList section ends */
 /* Videos Section starts */
 .section .left .videos-section{
     display: flex;
@@ -601,11 +576,9 @@ header .nav-wrapper nav ul .menu .sub-menu .right
 .section .left .videos-section .section-content table tbody tr td{
     border: 2px solid #d8d8d8 !important;
 }
-
 /* Videos Section ends */
-/* Main section right start  */
-
-/* Mini form section start  */
+/* Main section right start */
+/* Mini form section start */
 .section .right .mini-form-section{
     padding: 0 .1rem;
 }
@@ -636,12 +609,11 @@ header .nav-wrapper nav ul .menu .sub-menu .right
     flex: 1;
     margin: .2rem;
 }
-/* Mini form section start  ends*/
-
+/* Mini form section start ends*/
 .right-video-section{
     padding: 0 .5rem;
 }
-/* Main section right ends  */
+/* Main section right ends */
 /* Footer starts */
 footer .footer-content-wrapper{
     display: flex;
@@ -693,7 +665,6 @@ footer .footer-content-wrapper .site-info .site-icons span{
     color: #000;
 }
 /* Footer ends */
-
 /* Common Styles starts */
 .section-heading{
     background-color: #609513;
