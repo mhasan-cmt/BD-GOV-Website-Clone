@@ -214,10 +214,12 @@ header .nav-wrapper nav ul li:last-child:hover{
 header .nav-wrapper nav ul li:hover a{
     color: white;
 }
-header .nav-wrapper nav ul .menu{
+header .nav-wrapper nav ul .menu
+{
     position: relative;
 }
-header .nav-wrapper nav ul .menu .sub-menu{
+header .nav-wrapper nav ul .menu .sub-menu
+{
     display: flex;
     position: absolute;
     justify-content: space-between;
@@ -230,20 +232,38 @@ header .nav-wrapper nav ul .menu .sub-menu{
     -webkit-box-shadow: -11px 11px 5px -7px rgba(196,10,42,0.75);
     -moz-box-shadow: -11px 11px 5px -7px rgba(196,10,42,0.75);
 }
-header .nav-wrapper nav ul .menu .sub-menu .left ul, header .nav-wrapper nav ul .menu .sub-menu .right ul{
+header .nav-wrapper nav ul .menu-2 .sub-menu
+{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    background-color: white;
+    width: 20rem;
+    top: 100%;
+    left: 0;
+    border-top: 8px solid #6A0166 ;
+    box-shadow: -11px 11px 5px -7px #6A0166;
+    -webkit-box-shadow: -11px 11px 5px -7px #6A0166;
+    -moz-box-shadow: -11px 11px 5px -7px #6A0166;
+}
+header .nav-wrapper nav ul .menu .sub-menu .left ul, header .nav-wrapper nav ul .menu .sub-menu .right ul
+{
     display: flex;
     flex-direction: column;
     margin-top: .9rem;
     padding: 0 1rem;
     padding-bottom: 1rem;
 }
-header .nav-wrapper nav ul .menu .sub-menu .left{
+header .nav-wrapper nav ul .menu .sub-menu .left
+{
     margin-right: .5rem;
 }
-.sub-menu-wrapper{
+#sub-menu-1,
+#sub-menu-2{
     display: none;
 }
-header .nav-wrapper nav ul .menu .sub-menu .left ul li, header .nav-wrapper nav ul .menu .sub-menu .right ul li{
+header .nav-wrapper nav ul .menu .sub-menu .left ul li, header .nav-wrapper nav ul .menu .sub-menu .right ul li
+{
     margin: 0;
     justify-content: flex-start;
     border-bottom: .01px solid #CCCCCC;
@@ -258,10 +278,12 @@ header .nav-wrapper nav ul .menu .sub-menu .left ul a, header .nav-wrapper nav u
     font-weight: 500;
     color: black;
 }
-header .nav-wrapper nav ul .menu .sub-menu .left{
+header .nav-wrapper nav ul .menu .sub-menu .left
+{
     flex: 1;
 }
-header .nav-wrapper nav ul .menu .sub-menu .right{
+header .nav-wrapper nav ul .menu .sub-menu .right
+{
     flex: 1;
 }
 /* Nav Ends */

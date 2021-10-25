@@ -13,12 +13,18 @@ $(document).ready(() => {
 
 
     //Sub menu
-    $('.menu').hover(() => {
+    $('.menu-1').hover(() => {
 
-        $('.sub-menu-wrapper').toggle();
+        $('#sub-menu-1').toggle();
+    });
+    
+    $('.menu-2').hover(() => {
+
+        $('#sub-menu-2').toggle();
     });
 
-    // Tabs switcher
+
+    // Tab switcher
     $('.tab-section .tab-item-wrapper .tab-item a').on('click', function(e) {
         var currentAttrValue = $(this).attr('href');
 
