@@ -714,24 +714,4 @@ footer .footer-content-wrapper .site-info .site-icons span{
 .w-100{
     width: 100%;
 }
-/* Responsive Containers*/
-@media (min-width:576px){
-    .container{
-        max-width: 440px;
-   }
-}
-@media (min-width:768px){
-    .container{
-        max-width: 620px;
-   }
-}
-@media (min-width:992px){
-    .container{
-        max-width: 900px;
-   }
-}
-@media (min-width:1200px){
-    .container{
-        max-width: 1024px;
-   }
-}
+
